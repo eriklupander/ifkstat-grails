@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="se.ifkgoteborg.stat.model.Club"/>
+        <mapping class="se.ifkgoteborg.stat.model.Country"/>
+        <mapping class="se.ifkgoteborg.stat.model.Formation"/>
+        <mapping class="se.ifkgoteborg.stat.model.FormationPosition"/>
+        <mapping class="se.ifkgoteborg.stat.model.Game"/>
+        <mapping class="se.ifkgoteborg.stat.model.GameEvent"/>
+        <mapping class="se.ifkgoteborg.stat.model.GameNote"/>
+        <mapping class="se.ifkgoteborg.stat.model.GameParticipation"/>
+        <mapping class="se.ifkgoteborg.stat.model.Ground"/>
+        <mapping class="se.ifkgoteborg.stat.model.PlayedForClub"/>
+        <mapping class="se.ifkgoteborg.stat.model.Player"/>
+        <mapping class="se.ifkgoteborg.stat.model.Position"/>
+        <mapping class="se.ifkgoteborg.stat.model.PositionType"/>
+        <mapping class="se.ifkgoteborg.stat.model.Referee"/>
+        <mapping class="se.ifkgoteborg.stat.model.Setting"/>
+        <mapping class="se.ifkgoteborg.stat.model.SquadSeason"/>
+        <mapping class="se.ifkgoteborg.stat.model.Tournament"/>
+        <mapping class="se.ifkgoteborg.stat.model.TournamentSeason"/>
+    </session-factory>
+</hibernate-configuration>
