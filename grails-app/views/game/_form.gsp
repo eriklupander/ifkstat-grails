@@ -97,7 +97,7 @@
 		<g:message code="game.gameNotes.label" default="Game Notes" />		
 	</label>
 	<g:select name="gameNotes" from="${se.ifkgoteborg.stat.model.GameNote.list()}" multiple="multiple" optionKey="id" size="5" required="" value="${gameInstance?.gameNotes*.id}" class="many-to-many"/>
-	<g:createLink action="create" controller="GameEvent" params="[gameId: 1]" fragment="add"/>
+	<g:link action="create" controller="GameEvent" params="[gameId: 1]">Add</g:link>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: gameInstance, field: 'gameParticipation', 'error')} ">
